@@ -1,8 +1,16 @@
 
+
+
+var now = moment();
        //create two variables for holding the date for 30 back from now using    substract  
-var back30Days=moment().subtract(30, 'days').format('MMMM Do YYYY, h:mm:ss a');
+var back30Days=moment().format("12-25-1995", "MM-DD-YYYY");
+
+console.log('i am working');
+
+
 var countDownSeconds= Math.floor(moment().diff(back30Days, 'seconds'));
 
+console.log('i am working part 2');
   //variables holding days, hours , minutes and seconds
   var Days, Minutes,Hours,Seconds;
   // Set Interval function for performing all calculations and decrementing the countDownSeconds 
@@ -10,6 +18,7 @@ var countDownSeconds= Math.floor(moment().diff(back30Days, 'seconds'));
 
   // Updating Days 
    Days =pad(Math.floor(countDownSeconds / 86400),2);
+
   // Updating Hours 
  Hours = pad(Math.floor((countDownSeconds - (Days * 86400)) / 3600),2);
   // Updating Minutes
@@ -18,7 +27,7 @@ var countDownSeconds= Math.floor(moment().diff(back30Days, 'seconds'));
    Seconds = pad(Math.floor((countDownSeconds - (Days * 86400) - (Hours* 3600) - (Minutes * 60))), 2);
 
   // Updation our HTML view
-  document.getElementById("days").innerHTML=Days + ' Days';
+ document.getElementById("days").innerHTML=Days + ' Days';
  document.getElementById("hours").innerHTML=Hours + ' Hours';
  document.getElementById("minutes").innerHTML=Minutes+ ' Minutes';
  document.getElementById("seconds").innerHTML=Seconds + ' Seconds';
