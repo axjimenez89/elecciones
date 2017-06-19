@@ -3,7 +3,7 @@
 
 var now = moment();
        //create two variables for holding the date for 30 back from now using    substract  
-var back30Days=moment().format("12-25-1995", "MM-DD-YYYY");
+var back30Days=now.format("11-03-2020", "dddd, MMMM Do YYYY");
 
 console.log('i am working');
 
@@ -18,7 +18,6 @@ console.log('i am working part 2');
 
   // Updating Days 
    Days =pad(Math.floor(countDownSeconds / 86400),2);
-
   // Updating Hours 
  Hours = pad(Math.floor((countDownSeconds - (Days * 86400)) / 3600),2);
   // Updating Minutes
