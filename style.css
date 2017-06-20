@@ -12,5 +12,27 @@ body {
 
 
 .dates{
+    display: inline-flex;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+
+.dates > div {
+    padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+.text {
+    padding-left: 15px;
+}
+
+.box span{
+    padding: 15px;
+    border-radius: 3px;
     display: inline-block;
+    background-color:#90caf9;
+    /*opacity: 0.5;*/
+
 }
