@@ -23,7 +23,7 @@ var Days, Minutes,Hours,Seconds;
 // Updating Seconds
    Seconds = pad(Math.floor((countDown - (Days * 86400) - (Hours* 3600) - (Minutes * 60))), 2);
 
-  // Updation our HTML view
+  //   DOM updates
  document.getElementById("days").innerHTML=Days;
  document.getElementById("hours").innerHTML=Hours;
  document.getElementById("minutes").innerHTML=Minutes;
