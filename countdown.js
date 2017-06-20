@@ -1,9 +1,15 @@
 
+// var now = moment();
+
+// var targetDay = now.format("2020-11-03", "dddd, MMMM Do YYYY");
+
+// var countDown= Math.floor(moment().diff(targetDay, 'seconds'));
+
 var now = moment();
+var targetDay = moment('2020-11-23', 'YYYY-MM-DD');
+var countDown= Math.floor(targetDay.diff(now, 'seconds'));
 
-var targetDay = now.format("2020-11-03", "dddd, MMMM Do YYYY");
 
-var countDown= Math.floor(moment().diff(targetDay, 'seconds'));
 
 var Days, Minutes,Hours,Seconds;
 
@@ -18,10 +24,10 @@ var Days, Minutes,Hours,Seconds;
    Seconds = pad(Math.floor((countDown - (Days * 86400) - (Hours* 3600) - (Minutes * 60))), 2);
 
   // Updation our HTML view
- document.getElementById("days").innerHTML=Days + ' Days';
- document.getElementById("hours").innerHTML=Hours + ' Hours';
- document.getElementById("minutes").innerHTML=Minutes+ ' Minutes';
- document.getElementById("seconds").innerHTML=Seconds + ' Seconds';
+ document.getElementById("days").innerHTML=Days;
+ document.getElementById("hours").innerHTML=Hours;
+ document.getElementById("minutes").innerHTML=Minutes;
+ document.getElementById("seconds").innerHTML=Seconds;
 
      // Decrement 
  countDown--;
