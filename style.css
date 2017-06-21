@@ -48,9 +48,9 @@ body {
 }
 
 .title-1{
-    font-family: 'Lora', serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 70px;
-    color: #ffcc80;
+    color: #ffeb3b;
     position: relative;
     z-index: 2;
     top: 200px;
