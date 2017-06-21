@@ -5,8 +5,9 @@
 
 
 body {
-    background-image:url("https://source.unsplash.com/collection/959982/1600x900");
+    background-image:url("https://source.unsplash.com/collection/959982/1940×1229");
     text-align: center; 
+    background-size: cover;
 }
 
 
@@ -19,6 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow-wrap: break-word;
 }
 
 .dates > div {
@@ -26,6 +28,7 @@ body {
 	border-radius: 3px;
 	background:rgba(0, 0, 0, 0.6);
 	display: inline-block;
+    overflow-wrap: break-word;
 }
 
 .text {
@@ -55,4 +58,25 @@ body {
     z-index: 2;
     top: 200px;
     
+}
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      .dates {
+          display:inline-grid;
+          position:relative;
+          margin-left: 50px;
+
+      }
+
+      .title-1 {
+          position:relative;
+          top: 0px;
+      }
+
 }
