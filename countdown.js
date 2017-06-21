@@ -6,7 +6,7 @@
 // var countDown= Math.floor(moment().diff(targetDay, 'seconds'));
 
 var now = moment();
-var targetDay = moment('2020-11-23', 'YYYY-MM-DD');
+var targetDay = moment('2020-11-03', 'YYYY-MM-DD');
 var countDown= Math.floor(targetDay.diff(now, 'seconds'));
 
 
