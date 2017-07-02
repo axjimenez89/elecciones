@@ -70,13 +70,41 @@ body {
       .dates {
           display:inline-grid;
           position:relative;
-          margin-left: 50px;
-
+          margin-left: 35px;
+          font-size:32px;
       }
 
       .title-1 {
           position:relative;
           top: 0px;
+          font-size: 40px;
+         right: 66px;
+      }
+      .text {
+          font-size: 20px;
       }
 
+      div.election-date {
+      display: inline-flex;
+      font-size: 20px;
+      right: 65px;
+      position: relative;
+    }
+}
+
+
+
+.election-date{
+    padding: 10px;
+    color: #eeeeee;
+	border-radius: 3px;
+	background:rgba(0, 0, 0, 0.6);
+	display: inline-block;
+    overflow-wrap: break-word;
+    font-size: 70px;
+    opacity: 1.2S;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
