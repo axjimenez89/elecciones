@@ -61,7 +61,7 @@ body {
 }
 
 
-
+/* Iphone 6 portrait media query */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -91,6 +91,132 @@ body {
       position: relative;
     }
 }
+/*Landscape Iphone 6 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+     .dates {
+       margin-left: 145px;
+       font-size: 32px;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+      }
+
+      .title-1 {
+          position:relative;
+          top: 75px;
+          font-size: 40px;
+         right: 10px;
+      }
+      .text {
+          font-size: 20px;
+      }
+
+      div.election-date {
+      display: inline-flex;
+      font-size: 20px;
+      right: 15px;
+      position: relative;
+    }
+}
+
+
+
+/* IPHONE 5 media query portrain */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+       .dates {
+          display:inline-grid;
+          position:relative;
+          margin-left: 70px;
+          font-size:32px;
+      }
+
+      .title-1 {
+          position:relative;
+          top: 0px;
+          font-size: 40px;
+          right: 10px;
+      }
+      .text {
+          font-size: 20px;
+      }
+
+      div.election-date {
+      display: inline-flex;
+      font-size: 20px;
+      right: 0px;
+      position: relative;
+      }
+} 
+
+
+/* Ipad portrain media query */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+       .dates {
+        display: inline-flex;
+        position: relative;
+        font-size: 62px;
+        left: 135px;
+      }
+
+      .title-1 {
+          position:relative;
+          top: 0px;
+          font-size: 60px;
+          right: 10px;
+      }
+      .text {
+          font-size: 20px;
+      }
+
+      div.election-date {
+        display: inline-flex;
+        font-size: 42px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+
+
+}
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
