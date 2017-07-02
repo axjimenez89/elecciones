@@ -68,20 +68,20 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
       .dates {
-          display:inline-grid;
-          position:relative;
-          margin-left: 70px;
-          font-size:32px;
+        display:inline-grid;
+        position:relative;
+        margin-left: 70px;
+        font-size:32px;
       }
 
       .title-1 {
-          position:relative;
-          top: 0px;
-          font-size: 40px;
-         right: 10px;
+        position:relative;
+        top: 0px;
+        font-size: 40px;
+        right: 10px;
       }
       .text {
-          font-size: 20px;
+        font-size: 20px;
       }
 
       div.election-date {
@@ -106,10 +106,10 @@ body {
       }
 
       .title-1 {
-          position:relative;
-          top: 75px;
-          font-size: 40px;
-         right: 10px;
+        position:relative;
+        top: 75px;
+        font-size: 40px;
+        right: 10px;
       }
       .text {
           font-size: 20px;
@@ -133,17 +133,17 @@ body {
   and (orientation: portrait) {
 
        .dates {
-          display:inline-grid;
-          position:relative;
-          margin-left: 70px;
-          font-size:32px;
+        display:inline-grid;
+        position:relative;
+        margin-left: 70px;
+        font-size:32px;
       }
 
       .title-1 {
-          position:relative;
-          top: 0px;
-          font-size: 40px;
-          right: 10px;
+        position:relative;
+        top: 0px;
+        font-size: 40px;
+        right: 10px;
       }
       .text {
           font-size: 20px;
@@ -173,10 +173,10 @@ body {
       }
 
       .title-1 {
-          position:relative;
-          top: 0px;
-          font-size: 60px;
-          right: 10px;
+        position:relative;
+        top: 0px;
+        font-size: 60px;
+        right: 10px;
       }
       .text {
           font-size: 20px;
