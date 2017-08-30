@@ -1,9 +1,4 @@
 
-// var now = moment();
-
-// var targetDay = now.format("2020-11-03", "dddd, MMMM Do YYYY");
-
-// var countDown= Math.floor(moment().diff(targetDay, 'seconds'));
 
 var now = moment();
 var targetDay = moment('2020-11-03', 'YYYY-MM-DD');
